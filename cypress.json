@@ -1,6 +1,6 @@
 {
     "baseUrl" :"http://localhost:3000/",
-    "ignoreTestFiles": "**/example/*",
-    "viewPortWidth" : 1920,
-    "viewPortHeigth" : 1080
+    "ignoreTestFiles": "**/2-advanced-examples/*",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
 }
