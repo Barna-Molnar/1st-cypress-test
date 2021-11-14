@@ -54,6 +54,12 @@ describe('Locators', ()=> {
         cy.contains("form","Not Unique Text")
 
         cy.get("[type='submit']").contains("Not Unique Text")
+    });
+
+    it('locating elements find ', ()=> {
+        cy.get('#form-1').find(".btn-1")
+        cy.get('#form-1').find(".btn-2")
     })
+
 
 });
