@@ -37,6 +37,7 @@ describe('Locators', ()=> {
 
         // get all elements with specific data id 
         cy.get("[data-cy='btn-id-1']")
+        cy.getByTestId('btn-id-1')
 
     })
 
